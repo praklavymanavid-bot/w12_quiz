@@ -16,7 +16,7 @@ class _GroceryListState extends State<GroceryList> {
     // TODO-4 - Navigate to the form screen using the Navigator push
     Navigator.of(
       context,
-    ).push(MaterialPageRoute(builder: (context) => MyApp()));
+    ).push(MaterialPageRoute(builder: (context) => NewItem()));
   }
 
   @override
